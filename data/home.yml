@@ -14,18 +14,14 @@ hero:
   subtitle: "UI/UX DESIGNER"
   # description_intro: "Dio cane"
   description: "I\"m a UI/UX Designer based in Pescara and enjoy playing with colors. I love travelling, sport, nature, videogame and reading."
-  button:
-    text: "My Projects"
-    link: "#works-section" 
-  # info:
-  #   - label: "Born in"
-  #     value: "Vasto (CH), Italy"
+  buttonPrimary:
+    text: "Get to know more"
+    link: "#works-section"
+  buttonSecondary:
+    text: "Download CV"
+    link: "#resume-section" 
 
-  #   - label: "Experience"
-  #     value: "+3 Years"
-
-  #   - label: "Date of Birth"
-  #     value: "05 November 2022"
+    
 
 ### About [ aboutSection ]
 about:
@@ -82,29 +78,29 @@ resume:
     enable: true
     title: "Skills"
     items:
-      - label: "User experience"
-        dots: "9" #0-10 progress in dots
-        value: "90" #0-100 progress in %
+      # - label: "User experience"
+      #   dots: "9" #0-10 progress in dots
+      #   value: "90" #0-100 progress in %
 
-      - label: "User interface"
-        dots: "9" #0-10 progress in dots
-        value: "60" #0-100 progress in %
+      # - label: "User interface"
+      #   dots: "9" #0-10 progress in dots
+      #   value: "60" #0-100 progress in %
 
-      - label: "Web design"
-        dots: "8" #0-10 progress in dots
-        # value: "80" #0-100 progress in %
+      # - label: "Web design"
+      #   dots: "8" #0-10 progress in dots
+      #   # value: "80" #0-100 progress in %
 
-      - label: "Prototyping"
-        dots: "9" #0-10 progress in dots
-        value: "50" #0-100 progress in %
+      # - label: "Prototyping"
+      #   dots: "9" #0-10 progress in dots
+      #   value: "50" #0-100 progress in %
 
-      - label: "Graphic Design"
-        dots: "6" #0-10 progress in dots
-        value: "70" #0-100 progress in %
+      # - label: "Graphic Design"
+      #   dots: "6" #0-10 progress in dots
+      #   value: "70" #0-100 progress in %
       
-      - label: "HTML5/CSS3"
-        dots: "6" #0-10 progress in dots
-        value: "70" #0-100 progress in %
+      # - label: "HTML5/CSS3"
+      #   dots: "6" #0-10 progress in dots
+      #   value: "70" #0-100 progress in %
 
   services:
     enable: true
@@ -256,28 +252,8 @@ clients:
 ### Contact [ contacts ]
 contact:
   enable: true
-  title: "Contact Me"
-  list:
-    - label: "Phone"
-      icon: "fa-solid fa-phone-flip"
-      value: "+39 339 6374717"
+  title: "_ Get in touch!"
 
-    - label: "Email"
-      icon: "fa-solid fa-at"
-      value: "armandogaggini@gmail.com"
-
-    - label: "Address"
-      icon: "fa-solid fa-location-arrow"
-      value: "Vasto(CH), Via Giulio Cesare, 30"
-
-### Blog [ blogSection ]
-#items generates from dir /content/blog/*
-blog:
-  enable: false
-  title: "My Blog"
-  text: "<p>Suspendisse potenti. Sed egestas eros eu libero posuere ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.</p>"
-  button: "View Blog"
-  link: "blog/"
 
 ### Portfolio [ portfolioSection ]
 #items generates from dir /content/portfolio/*

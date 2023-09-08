@@ -160,7 +160,7 @@ strong {
 }
 
 .vertical-line {
-  border-left: 1px solid #fff;
+  border-left: 4px solid #fff;
 }
 
 .row.row-custom .col-xs-12 {
@@ -318,6 +318,7 @@ a.btn-link,
 .btn-link,
 button,
 input[type="submit"] {
+  background-color: $active_color;
   padding: 0 4rem;
   position: relative;
   overflow: hidden;
@@ -325,13 +326,42 @@ input[type="submit"] {
   vertical-align: top;
   font-size: $btn_size;
   font-family: inherit;
-  color: $default_color;
+  color: $white_color !important;
   font-weight: 700;
   height: 4rem;
   line-height: 4rem;
   text-align: center;
   text-decoration: none;
-  border: 1px solid $active_color;
+  border: 0px solid $active_color !important; 
+  outline: none !important;
+  box-shadow: none !important;
+  cursor: pointer;
+  border-radius: $border_radius_off;
+  -webkit-border-radius: 0.5rem;
+  transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+a.btn-outline,
+.btn-outline,
+a.btn-link-outline,
+.btn-link--outline,
+button{
+  background-color: #fff;
+  padding: 0 4rem;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  font-size: $btn_size;
+  font-family: inherit;
+  color: $active_color !important;
+  font-weight: 700;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  text-decoration: none;
+  border: 0px solid $active_color !important; 
   outline: none !important;
   box-shadow: none !important;
   cursor: pointer;
@@ -361,7 +391,7 @@ button:before {
   top: -50%;
   width: 120%;
   height: 120%;
-  background: $active_color;
+  background: rgba(255, 255, 255, 0.3);
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   transform: translate3d(0, -100%, 0) skew(-10deg, -10deg);
@@ -2052,6 +2082,14 @@ body.light-skin .header.sticky .navbar.default:before {
 
 .section-bg {
   background: $second_bg;
+}
+
+.section-red-bg {
+  background: $active_color;
+}
+
+.m-title-white {
+  color: $white_color !important;
 }
 
 .m-titles {
@@ -5290,7 +5328,7 @@ body.light-skin {
 }
 
 body.light-skin .vertical-line {
-  border-left-color: $light_default_color;
+  border-left-color: $light_light_grey_second
 }
 
 body.light-skin .fw-row .fw-col-right {
@@ -5498,7 +5536,7 @@ body.light-skin .h-titles .h-subtitle {
 }
 
 body.light-skin .hero-started:before {
-  background: $light_second_bg;
+  background: $light_white_color;
 }
 
 body.light-skin .hero-started .title {

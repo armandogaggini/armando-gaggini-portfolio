@@ -52,17 +52,13 @@
         <div class="description scrolla-element-anim-1 scroll-animate" data-animate="active">
           <!-- <p class="description_intro">{{ .description_intro | markdownify }}</p> -->
           <p>{{ .description | markdownify }}</p>
-          <div class="social-links">
-            {{ range $social }}
-            <a target="_blank" rel="nofollow" href="{{ .url }}" title="{{ .title }}">
-              <i aria-hidden="true" class="{{ .icon }}"></i>
-            </a>
-            {{ end }}
-          </div>
         </div>
 
         <a href="{{ .button.link }}" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">{{
-          .button.text }}</a>
+          .buttonPrimary.text }}</a>
+
+        <a href="{{ .button.link }}" class="btn-outline scrolla-element-anim-1 scroll-animate" data-animate="active">{{
+            .buttonSecondary.text }}</a>  
 
         <!-- <div class="info-list">
           <ul>

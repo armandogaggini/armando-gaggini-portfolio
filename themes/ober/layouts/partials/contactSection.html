@@ -1,19 +1,19 @@
 {{ $action := .Site.Params.formspreeURL }}
 {{ with .Site.Data.home.contact }}
 {{ if .enable }}
-<section class="section section-parallax-2" id="contact-section">
+<section class="section section-red-bg section-parallax-2" id="contact-section">
   <div class="container">
 
     {{ "<!-- heading -->" | safeHTML }}
     <div class="m-titles">
-      <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">{{ .title }}</h2>
+      <h2 class="m-title m-title-white splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">{{ .title }}</h2>
     </div>
 
     <div class="row row-custom">
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-right">
 
         {{ "<!-- numbers -->" | safeHTML }}
-        <div class="numbers-items contacts-items">
+        <!-- <div class="numbers-items contacts-items">
           {{ range .list }}
           <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
             <div class="icon" title="{{ .title }}">
@@ -22,13 +22,13 @@
             <div class="num">{{ .value }}</div>
           </div>
           {{ end }}
-        </div>
+        </div> -->
 
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ">
 
         {{ "<!-- contact form -->" | safeHTML }}
-        <div class="contacts-form scrolla-element-anim-1 scroll-animate" data-animate="active">
+        <!-- <div class="contacts-form scrolla-element-anim-1 scroll-animate" data-animate="active">
           <form id="cform" action="{{ $action }}" method="post">
             <label>
               {{ i18n "yourName" }}
@@ -47,7 +47,7 @@
         </div>
         <div class="alert-success" id="formAlertSuccess" style="display: none;">
           <p>{{ i18n "successMessage" }}</p>
-        </div>
+        </div> -->
 
       </div>
     </div>
