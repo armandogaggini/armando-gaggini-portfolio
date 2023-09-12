@@ -6,14 +6,11 @@
 ### Hero [ heroSection ]
 hero:
   enable: true
-  image: "images/about/armando_gaggini_profile.png"
-  background_image: "images/about/back_profile_photo.png"
+  image: "images/about/armando_gaggini_hero.png"
   image_alt: "Armando Gaggini"
   background_image_alt: "Background image"
-  title: "Armando Gaggini"
-  subtitle: "UI/UX DESIGNER"
-  # description_intro: "Dio cane"
-  description: "I\"m a UI/UX Designer based in Pescara and enjoy playing with colors. I love travelling, sport, nature, videogame and reading."
+  title: "i'm Armando"
+  subtitle: "Hey, there! Nice to meet you, "
   buttonPrimary:
     text: "Get to know more"
     link: "#works-section"
@@ -26,7 +23,7 @@ hero:
 ### About [ aboutSection ]
 about:
   enable: true
-  title: "About Me"
+  subtitle: "DIO"
   text: "
   <p>
     My name is Federico Ober. I have been studying UI UX Design since October 2020. I like creating
@@ -42,15 +39,15 @@ about:
   "
   list:
     - label: "Completed <br>Project"
-      icon: "far fa-check-circle"
+      title: "Passions"
       value: "124"
 
     - label: "Happy <br>Clients"
-      icon: "far fa-smile-beam"
+      title: "Languages"
       value: "65"
 
     - label: "Awards <br>Won"
-      icon: "far fa-gem"
+      title: "My values"
       value: "18"
       
   button:
@@ -78,29 +75,37 @@ resume:
     enable: true
     title: "Skills"
     items:
-      # - label: "User experience"
-      #   dots: "9" #0-10 progress in dots
-      #   value: "90" #0-100 progress in %
-
-      # - label: "User interface"
-      #   dots: "9" #0-10 progress in dots
-      #   value: "60" #0-100 progress in %
-
-      # - label: "Web design"
-      #   dots: "8" #0-10 progress in dots
-      #   # value: "80" #0-100 progress in %
-
-      # - label: "Prototyping"
-      #   dots: "9" #0-10 progress in dots
-      #   value: "50" #0-100 progress in %
-
-      # - label: "Graphic Design"
-      #   dots: "6" #0-10 progress in dots
-      #   value: "70" #0-100 progress in %
-      
-      # - label: "HTML5/CSS3"
-      #   dots: "6" #0-10 progress in dots
-      #   value: "70" #0-100 progress in %
+    - label: "User Experience"
+    - divider: "/"
+    - label: "User Interface"
+    - divider: "/"
+    - label: "Interaction Design"
+    - divider: "/"
+    - label: "Web Design"
+    - divider: "/"
+    - label: "Journey Mapping"
+    - divider: "/"
+    - label: "Identity System"
+    - divider: "/"
+    - label: "Information Architecture"
+    - divider: "/"
+    - label: "Wireframing"
+    - divider: "/"
+    - label: "Prototyping"
+    - divider: "/"
+    - label: "Collaboration"
+    - divider: "/"
+    - label: "Communication"
+    - divider: "/"
+    - label: "Prioritization"
+    - divider: "/"
+    - label: "Empathy"
+    - divider: "/"
+    - label: "Multi-tasking"
+    - divider: "/"
+    - label: "Self-management"
+    - divider: "/"
+    - label: "Curiosity"
 
   services:
     enable: true
@@ -253,6 +258,19 @@ clients:
 contact:
   enable: true
   title: "_ Get in touch!"
+  subtitle: "Dio cane"
+  items:
+      - icon: "fa-solid fa-pen-ruler"
+        button: "order now"
+        link: "#contact-section"
+
+      - icon: "fa-solid fa-code"
+        button: "order now"
+        link: "#contact-section"
+
+      - icon: "fa-solid fa-sitemap"
+        button: "order now"
+        link: "#contact-section"
 
 
 ### Portfolio [ portfolioSection ]

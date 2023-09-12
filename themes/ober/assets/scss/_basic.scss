@@ -327,7 +327,7 @@ input[type="submit"] {
   font-size: $btn_size;
   font-family: inherit;
   color: $white_color !important;
-  font-weight: 700;
+  font-weight: 600;
   height: 4rem;
   line-height: 4rem;
   text-align: center;
@@ -347,7 +347,7 @@ a.btn-outline,
 a.btn-link-outline,
 .btn-link--outline,
 button{
-  background-color: #fff;
+  // background-color: #fff;
   padding: 0 4rem;
   position: relative;
   overflow: hidden;
@@ -356,7 +356,7 @@ button{
   font-size: $btn_size;
   font-family: inherit;
   color: $active_color !important;
-  font-weight: 700;
+  font-weight: 600;
   height: 4rem;
   line-height: 4rem;
   text-align: center;
@@ -2182,7 +2182,7 @@ body.light-skin .header.sticky .navbar.default:before {
 }
 
 .hero-started {
-  padding: 10rem 0 0 0;
+  padding: 20rem 0 0 0;
   position: relative;
 }
 
@@ -2201,7 +2201,7 @@ body.light-skin .header.sticky .navbar.default:before {
   bottom: -3.5rem;
   right: -4.5rem;
   width: 46.75rem;
-  height: 57rem;
+  height: 40rem;
 }
 
 .hero-started .slide img {
@@ -2214,12 +2214,13 @@ body.light-skin .header.sticky .navbar.default:before {
   // border-radius: 380px;
   // -webkit-border-radius: 380px;
   position: absolute;
-  left: 10rem;
-  top: 12rem;
+  left: 15rem;
+  top: 10rem;
   width: 60%;
-  height: 60vh;
+  height: 50vh;
   object-fit: contain;
   z-index: 10;
+  /* margin: 0px 4rem; */
   
 }
 
@@ -2300,11 +2301,11 @@ body.light-skin .header.sticky .navbar.default:before {
 
 .hero-started .content {
   position: relative;
-  min-height: 41.5rem;
+  // min-height: 41.5rem;
 }
 
 .hero-started .titles {
-  max-width: 34.25rem;
+  max-width: 44rem;
   z-index: 3;
 }
 
@@ -2313,15 +2314,14 @@ body.light-skin .header.sticky .navbar.default:before {
   font-size: $section_h1_size;
   line-height: 7.5rem;
   color: #fff;
-  font-weight: 400;
-  margin: 0.5rem 0 0.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0 5rem 0rem;
 }
 
 .hero-started .subtitle {
   font-size: $section_sub_size;
-  color: #bdc1c7;
-  font-weight: $font_weight;
-  text-transform: uppercase;
+  font-style: italic;
+  color: $active_color;
 }
 
 .hero-started .description {
@@ -2396,6 +2396,13 @@ body.light-skin .header.sticky .navbar.default:before {
   margin-top: 0;
 }
 
+.value-title {
+  color: $light_dark_grey_second;
+  font-size: 1.125rem;
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}
+
 .profile-box p:last-child,
 .text p:last-child {
   margin-bottom: 0;
@@ -2408,6 +2415,12 @@ body.light-skin .header.sticky .navbar.default:before {
 
 .profile-box .signature {
   margin-top: 4rem;
+}
+
+.introduction {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .signature {
@@ -2640,6 +2653,22 @@ body.light-skin .header.sticky .navbar.default:before {
   background: $active_color;
 }
 
+.skills-list{
+  display: flex;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: rows;
+  font-weight: 600;
+}
+.skill-item:nth-child(even){
+  color: $active_color;
+}
+
+
+
+
 .history-left {
   margin-bottom: 5rem;
   float: left;
@@ -2667,7 +2696,7 @@ body.light-skin .header.sticky .navbar.default:before {
 
 .history-item .name {
   font-size: $section_name_size;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .history-item .text {
@@ -2717,7 +2746,7 @@ body.light-skin .header.sticky .navbar.default:before {
 .services-item .title {
   margin-bottom: 1rem;
   font-size: $section_name_size;
-  font-weight: 700;
+  font-weight: 500;
   color: $default_color;
 }
 
@@ -4863,6 +4892,8 @@ h5.comment-box__details {
   }
   .hero-started .subtitle {
     font-size: 1.5rem;
+    font-style: italic;
+    color: $active_color;
   }
   .hero-started .title {
     font-size: 4rem;
@@ -5543,7 +5574,7 @@ body.light-skin .hero-started .title {
   color: $light_default_color;
 }
 
-body.light-skin .hero-started .subtitle {
+body.light-skin .hero-started {
   color: #3c4649;
 }
 

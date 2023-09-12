@@ -19,8 +19,8 @@
         <div class="numbers-items">
           {{ range .list }}
           <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-            <div class="icon">
-              <i aria-hidden="true" class="{{ .icon }}"></i>
+            <div class="value-title">
+              {{ .title | safeHTML }}
             </div>
             <div class="num">{{ .num }}</div>
             <div class="title">{{ .label | safeHTML }}</div>
@@ -33,6 +33,7 @@
 
         {{ "<!-- profile -->" | safeHTML }}
         <div class="profile-box">
+          <div class="introduction scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .subtitle | safeHTML }}</div>
           <div class="text scrolla-element-anim-1 scroll-animate" data-animate="active">
             {{ .text | safeHTML }}
             <a href="{{ .button.link }}" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .button.text }}</a>
