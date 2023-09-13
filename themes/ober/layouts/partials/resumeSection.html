@@ -23,17 +23,15 @@
         {{ if .skills.enable }}
         {{ "<!-- skills -->" | safeHTML }}
         <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .skills.title }}</div>
-        <div class="skills-list" style="display: flex; flex-wrap: wrap;">
+        <div class="skills-list">
           {{ range .skills.items }}
-          <div class="skill-item" style="font-weight: 400; font-size: 1.25rem; text-transform: uppercase;">
-            {{ .label }}
-            <div style="font-weight: 900; color:crimson; margin-right: 0.5rem; margin-bottom: 0.5rem;">
+
+          <div class="skill-item">
+              {{ .label }}
+            <div class="divider">
               {{ .divider }}
             </div>
           </div>
-        
-        
-        
           {{ end }}
         </div>
         {{ end }}

@@ -50,11 +50,17 @@
           </h2>
         </div>
 
-        <a href="{{ .button.link }}" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">{{
-          .buttonPrimary.text }}</a>
-
-        <a href="{{ .button.link }}" class="btn-outline scrolla-element-anim-1 scroll-animate" data-animate="active">{{
-            .buttonSecondary.text }}</a>  
+        <div class="hero-buttons">
+          <a href="{{ .button.link }}" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">{{
+            .buttonPrimary.text }}</a>
+  
+            <div class="download-links scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <a class="download-label" href="{{ .button.link }}">{{ .buttonSecondary.text }}</a>
+            </div>  
+        </div>
+        
+        <!-- <a ref id="CV" tabindex="0" target="_blank" href="{{ .button.link }}" class="btn-outline effect">{{
+            .buttonSecondary.text }}</a>   -->
 
         <!-- <div class="info-list">
           <ul>

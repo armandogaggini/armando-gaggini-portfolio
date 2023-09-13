@@ -61,17 +61,17 @@ developer = "Armando Gaggini"
 # Social Settings
 [[params.social]]
 title = "Linkedin"
-icon = "fab fa-linkedin-in"
+icon = "fa-brands fa-linkedin-in"
 url = "https://www.linkedin.com/in/armando-gaggini/"
 weight = 2
 [[params.social]]
 title = "Instagram"
-icon = "fab fa-instagram"
+icon = "fa-brands fa-instagram"
 url = "https://www.instagram.com/armando_gaggini/"
 weight = 3
 [[params.social]]
 title = "Facebook"
-icon = "fab fa-facebook-f"
+icon = "fa-brands fa-facebook-f"
 url = "https://www.facebook.com/armando.gaggini.5/"
 weight = 1
 

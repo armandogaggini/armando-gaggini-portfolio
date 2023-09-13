@@ -258,19 +258,14 @@ clients:
 contact:
   enable: true
   title: "_ Get in touch!"
-  subtitle: "Dio cane"
-  items:
-      - icon: "fa-solid fa-pen-ruler"
-        button: "order now"
-        link: "#contact-section"
+  subtitle: "If you want to connect about an opportunity or design talk, feel free to reach out using the links below."
+  mailicon: "fa-solid fa-envelope-open-text"
+  socials:
+      - icon: "fa-brands fa-linkedin-in"
+        url: "https://www.linkedin.com/in/armando-gaggini/"
 
-      - icon: "fa-solid fa-code"
-        button: "order now"
-        link: "#contact-section"
-
-      - icon: "fa-solid fa-sitemap"
-        button: "order now"
-        link: "#contact-section"
+      - icon: "fa-brands fa-instagram"
+        url: "https://www.instagram.com/armando_gaggini/"
 
 
 ### Portfolio [ portfolioSection ]

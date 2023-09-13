@@ -7,21 +7,36 @@
 
     {{ "<!-- heading -->" | safeHTML }}
     <div class="m-titles">
-      <h2 class="m-title m-title-white splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">{{ .title }}</h2>
-      <div class="subtitle splitting-text-anim-2 scroll-animate" data-splitting="chars" data-animate="active">
+      <h2 class="contact-title splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">{{
+        .title }}</h2>
+      <div class="contact-description splitting-text-anim-2 scroll-animate" data-splitting="chars"
+        data-animate="active">
         {{ .subtitle }}
       </div>
-      
+
+      <div class="contacts-list">
+        <a class="social-icon" href="mailto:armandogaggini@gmail.com">
+          <i aria-hidden="true" class="{{ .mailicon }}"></i>
+        </a>
+        {{ range .socials }}
+        <a class="social-icon" href="{{ .url }}">
+          <i aria-hidden="true" class="{{ .icon }}"></i>
+        </a>
+        {{ end }}
+      </div>
     </div>
-  
-    <div class="social-links">
+
+  </div>
+
+
+  <!-- <div class="social-links">
           {{ range $social }}
           <a target="_blank" rel="nofollow" href="{{ .url }}" title="{{ .title }}">
             <i aria-hidden="true" class="{{ .icon }}"></i>
           </a>
           {{ end }}
         </div>
-    </div>
+    </div> -->
 
   </div>
 </section>
