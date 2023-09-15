@@ -1,7 +1,7 @@
 ---
 # preview details
 title: Gooir
-category: UI UX Design
+category: UI/UX Design
 category_slug: ui-ux-design
 image: images/works/work4.jpg
 

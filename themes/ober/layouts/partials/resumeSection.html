@@ -22,7 +22,7 @@
 
         {{ if .skills.enable }}
         {{ "<!-- skills -->" | safeHTML }}
-        <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .skills.title }}</div>
+        <div class="p-title divider-services scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .skills.title }}</div>
         <div class="skills-list">
           {{ range .skills.items }}
 
@@ -38,7 +38,7 @@
 
         {{ if .services.enable }}
         {{ "<!-- services -->" | safeHTML }}
-        <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .services.title }}</div>
+        <div class="p-title divider-services scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .services.title }}</div>
         <div class="services-items">
           {{ range .services.items }}
           <div class="services-col">
@@ -60,9 +60,9 @@
         <div class="history-left">
           {{ range .history1 }}
           <div class="history-items">
-            <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .title }}</div>
+            <div class="p-title divider-services scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .title }}</div>
             {{ range .items }}
-            <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+            <div class="history-item  scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div class="date">{{ .date }}</div>
               <div class="name">{{ .name }}</div>
               {{ with .subname }}
@@ -80,7 +80,7 @@
         <div class="history-right">
           {{ range .history2 }}
           <div class="history-items">
-            <div class="p-title scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .title }}</div>
+            <div class="p-title divider-services scrolla-element-anim-1 scroll-animate" data-animate="active">{{ .title }}</div>
             {{ range .items }}
             <div class="history-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div class="date">{{ .date }}</div>

@@ -1,8 +1,8 @@
 ---
 # preview details
 title: Stay Fit
-category: Development
-category_slug: development
+category: UI/UX Design
+category_slug: ui-ux-design
 image: images/works/work4.jpg
 
 # full details

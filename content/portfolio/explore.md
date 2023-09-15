@@ -1,8 +1,8 @@
 ---
 # preview details
 title: Explore
-category: Development
-category_slug: development
+category: UI/UX Design
+category_slug: ui-ux-design
 image: images/works/work7.jpg
 
 # full details

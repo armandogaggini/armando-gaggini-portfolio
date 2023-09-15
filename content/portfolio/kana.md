@@ -1,9 +1,9 @@
 ---
 # preview details
 title: Kana
-category: Photography
-category_slug: photography
-image: images/works/work7.jpg
+category: Brand
+category_slug: brand
+image: ''
 
 # full details
 full_image: images/works/single1.jpg

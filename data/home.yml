@@ -13,7 +13,7 @@ hero:
   subtitle: "Hey, there! Nice to meet you, "
   buttonPrimary:
     text: "Get to know more"
-    link: "#works-section"
+    link: "#about-section"
   buttonSecondary:
     text: "Download CV"
     link: "#resume-section" 
@@ -38,16 +38,17 @@ about:
   </p>
   "
   list:
-    - label: "Completed <br>Project"
-      title: "Passions"
+    - label: "Travelling, Sport, Nature, Reading,
+Movies, Videogames, Music"
+      title: "_ Passions"
       value: "124"
 
-    - label: "Happy <br>Clients"
-      title: "Languages"
+    - label: "Italian, English"
+      title: "_ Languages"
       value: "65"
 
-    - label: "Awards <br>Won"
-      title: "My values"
+    - label: "Respect, Empathy"
+      title: "_ My values"
       value: "18"
       
   button:
@@ -61,7 +62,7 @@ about:
 ### Resume [ resumeSection ]
 resume:
   enable: true
-  title: "My Resume"
+  title: "_ my resume"
   text: "
   <p>
     Talented UX designer with 7+ years of experience, seeking to elevate UI/UX at ABC, Inc.
@@ -73,7 +74,7 @@ resume:
 
   skills:
     enable: true
-    title: "Skills"
+    title: "SKILLS"
     items:
     - label: "User Experience"
     - divider: "/"
@@ -109,7 +110,7 @@ resume:
 
   services:
     enable: true
-    title: "Services"
+    title: "SERVICES"
     items:
       - icon: "fa-solid fa-pen-ruler"
         name: "Web development"
@@ -150,11 +151,11 @@ resume:
       items:
         - date: "2016 - awwwards"
           name: "Site of the Day"
-          text: "<p>Euismod vel bibendum ultrices, fringilla vel eros, donec euismod leo lectus.</p>"
+          text: "Location"
 
         - date: "2015 - designnominees"
           name: "Site of the Week"
-          text: "<p>Euismod vel bibendum ultrices, fringilla vel eros, donec euismod leo lectus.</p>"
+          text: "Location"
 
   history2:
     - title: "EXPERIENCE"
@@ -162,17 +163,17 @@ resume:
         - date: "2014 - Present"
           name: "Soft Tech Inc."
           subname: "UI Head &amp; Manager"
-          text: "<p>Euismod vel bibendum ultrices, fringilla vel eros, donec euismod leo lectus.</p>"
+          
 
         - date: "2010 - 2014"
           name: "Kana Design Studio"
           subname: "UI / UX Specialist"
-          text: "<p>Euismod vel bibendum ultrices, fringilla vel eros, donec euismod leo lectus.</p>"
+          
 
         - date: "2009 - 2010"
           name: "Paperart"
           subname: "Graphic Designer"
-          text: "<p>Euismod vel bibendum ultrices, fringilla vel eros, donec euismod leo lectus.</p>"
+          
 
   button:
     text: "Download CV"
@@ -272,5 +273,5 @@ contact:
 #items generates from dir /content/portfolio/*
 portfolio:
   enable: true
-  title: "My Projects"
+  title: "_ some of my work"
   text: "<p>A Collection of my favorites project I’ve designed recently. Feeling great while sharing here.</p>"

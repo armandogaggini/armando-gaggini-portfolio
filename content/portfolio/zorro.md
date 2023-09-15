@@ -1,8 +1,8 @@
 ---
 # preview details
 title: Zorro
-category: Branding
-category_slug: branding
+category: Other
+category_slug: other
 image: images/works/work1.jpg
 
 # full details

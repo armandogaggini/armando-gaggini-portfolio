@@ -10,9 +10,9 @@
       <!-- Image & SVG -->
       <div class="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
         <img src="{{ .image | absURL }}" alt="{{ .image_alt }}" />
-        <span class="back-profile-img">
+        <!-- <span class="back-profile-img">
           <img src="{{.background_image | absURL }}" alt="{{ .background_image_alt }}" />
-        </span>
+        </span> -->
         <!-- CHIEDERE IL MOTIVO -->
 
         <!-- <span class="circle rectangle-3">
@@ -49,16 +49,19 @@
             {{ .title | safeHTML }}
           </h2>
         </div>
-
+        
         <div class="hero-buttons">
-          <a href="{{ .button.link }}" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">{{
+          {{ .text | safeHTML }}
+          <a href="{{ .buttonPrimary.link }}" class="btn scrolla-element-anim-1 scroll-animate" data-animate="active">{{
             .buttonPrimary.text }}</a>
-  
             <div class="download-links scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <a class="download-label" href="{{ .button.link }}">{{ .buttonSecondary.text }}</a>
-            </div>  
+              {{ .text | safeHTML }}
+              <a class="download-label" href="{{ .buttonSecondary.link }}">{{ .buttonSecondary.text }}</a>
+            </div> 
+            
         </div>
         
+       
         <!-- <a ref id="CV" tabindex="0" target="_blank" href="{{ .button.link }}" class="btn-outline effect">{{
             .buttonSecondary.text }}</a>   -->
 
