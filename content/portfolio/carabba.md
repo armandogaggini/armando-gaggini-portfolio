@@ -1,9 +1,9 @@
 ---
 # preview details
-title: Explore
-category: UI/UX Design
-category_slug: ui-ux-design
-image: images/works/work7.jpg
+title: Carabba
+category: Brand
+category_slug: brand
+image: images/works/carabba-mock.jpg
 
 # full details
 full_image: images/works/single1.jpg

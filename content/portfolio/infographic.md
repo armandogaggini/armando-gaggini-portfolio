@@ -1,9 +1,9 @@
 ---
 # preview details
-title: Zorro
+title: Infographic
 category: Other
 category_slug: other
-image: images/works/work1.jpg
+image: images/works/infographic-mock.jpg
 
 # full details
 full_image: images/works/single1.jpg
@@ -12,7 +12,7 @@ info:
     value: 2022
 
   - label: Technology
-    value: UI, XD
+    value: Figma, UI
 
 description1:
   enable: true

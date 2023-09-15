@@ -77,7 +77,7 @@ weight = 1
 
 # Portfolio Settings
 [params.portfolio]
-homeNumOfItems = 6
+homeNumOfItems = 8
 [[params.portfolio.filters]]
 name = "UI/UX Design"
 slug = "ui-ux-design"

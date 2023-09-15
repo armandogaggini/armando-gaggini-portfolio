@@ -1,9 +1,9 @@
 ---
 # preview details
-title: Kana
-category: Brand
-category_slug: brand
-image: ''
+title: Lombardi
+category: UI/UX Design
+category_slug: ui-ux-design
+image: images/works/lombardi-mock.jpg
 
 # full details
 full_image: images/works/single1.jpg

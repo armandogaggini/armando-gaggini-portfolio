@@ -1,9 +1,9 @@
 ---
 # preview details
-title: Gooir
+title: Hair
 category: UI/UX Design
 category_slug: ui-ux-design
-image: images/works/work4.jpg
+image: images/works/hair-mock.jpg
 
 # full details
 full_image: images/works/single1.jpg
@@ -12,7 +12,7 @@ info:
     value: 2022
 
   - label: Technology
-    value: Figma, UI
+    value: Development, JS
 
 description1:
   enable: true

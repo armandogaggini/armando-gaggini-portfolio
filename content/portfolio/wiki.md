@@ -1,9 +1,9 @@
 ---
 # preview details
-title: Mozar
-category: Brand
-category_slug: brand
-image: ''
+title: Wiki Axor
+category: UI/UX Design
+category_slug: ui-ux-design
+image: images/works/wiki-mock.jpg
 
 # full details
 full_image: images/works/single1.jpg
@@ -12,7 +12,7 @@ info:
     value: 2022
 
   - label: Technology
-    value: Photoshop, XD
+    value: UI, XD
 
 description1:
   enable: true

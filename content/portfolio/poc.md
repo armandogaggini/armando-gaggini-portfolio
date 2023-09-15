@@ -1,9 +1,9 @@
 ---
 # preview details
-title: Stay Fit
+title: PoC Fidelizzazione Clienti
 category: UI/UX Design
 category_slug: ui-ux-design
-image: images/works/work4.jpg
+image: images/works/poc-mock.jpg
 
 # full details
 full_image: images/works/single1.jpg

@@ -162,7 +162,7 @@ strong {
 }
 
 .vertical-line {
-  border-left: 4px solid #fff;
+  border-left: 4px solid #343e4d;
 }
 
 .row.row-custom .col-xs-12 {
@@ -2009,9 +2009,15 @@ body.light-skin .header.sticky .navbar.default:before {
 **/
 
 .footer {
-  margin: 0;
-  padding: 3rem 0 3rem 0;
-  max-height: 7.5rem;
+  padding: 0rem 0 6rem 0 !important;
+  background: #cf000f;
+  color: #fff;
+}
+
+.footer .align-left {
+  text-align: left;
+  padding-top: 3.5rem;
+  border-top: 1px solid;
 }
 
 .footer.footer-default {
@@ -2214,7 +2220,7 @@ body.light-skin .header.sticky .navbar.default:before {
   bottom: -0.5rem;
   width: 300%;
   height: 24rem;
-  background: $second_bg;
+  // background: $second_bg;
 }
 
 .hero-started .slide {
@@ -2495,6 +2501,12 @@ body.light-skin .download-links a.active {
 }
 
 .value-title {
+  color: $grey_color;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+body.light-skin .value-title {
   color: $light_dark_grey_first;
   font-size: 1rem;
   margin-bottom: 0.5rem;
@@ -2518,6 +2530,13 @@ body.light-skin .download-links a.active {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
+}
+
+.profile-description {
+  margin-left: 0;
+  font-size: $default_size;
+  color: #bdc1c7;
+  font-weight: 400;
 }
 
 .signature {
@@ -2551,7 +2570,7 @@ body.light-skin .download-links a.active {
 }
 
 .numbers-item .title {
-  color: #bdc1c7;
+  color: $white_color;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.4;
@@ -2761,13 +2780,24 @@ body.light-skin .download-links a.active {
   color: $dark_color
 }
 
+body.light-skin .skill-item {
+  display: flex;
+  flex-direction: rows;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-transform: lowercase;
+  color: $light_dark_grey_first ;
+}
+
 .skill-item {
   display: flex;
   flex-direction: rows;
   font-weight: 400;
   font-size: 1.25rem;
   text-transform: lowercase;
+  color: $white_color;
 }
+
 
 .divider {
   font-weight: 900;
@@ -2840,6 +2870,16 @@ body.light-skin .download-links a.active {
   margin-top: 0;
 }
 
+body.light-skin .divider-services {
+  border-bottom: 4px solid white;
+    padding-bottom: 1rem;
+}
+
+.divider-services {
+  border-bottom: 4px solid #343e4d;
+    padding-bottom: 1rem;
+}
+
 .services-item .icon {
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -2848,7 +2888,7 @@ body.light-skin .download-links a.active {
   height: 5rem;
   line-height: 5rem;
   color: $active_color;
-  background: $second_bg;
+  background: $default_bg;
   text-align: center;
   border-radius: $border_radius_off;
   // -webkit-border-radius: 0.5rem;
@@ -2906,7 +2946,7 @@ body.light-skin .download-links a.active {
   vertical-align: top;
   color: $default_color;
   font-size: $section_name_size;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -2998,7 +3038,7 @@ body.light-skin .download-links a.active {
   top: -0.5rem;
   width: 0.5rem;
   height: calc(100% + 1.25rem);
-  background: $second_bg;
+  background: $default_bg;
   z-index: 2;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
@@ -3034,7 +3074,7 @@ body.light-skin .download-links a.active {
   top: -0.5rem;
   width: calc(100% + 1.25rem);
   height: 0.5rem;
-  background: $second_bg;
+  background: $default_bg;
   z-index: 2;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
@@ -3103,20 +3143,21 @@ body.light-skin .download-links a.active {
 }
 
 .works-items.works-list-items .works-item .desc .category {
-  line-height: 2.5rem;
+  line-height: 1.5rem;
   color: #bdc1c7;
   font-size: $section_name_size;
-  // font-weight: 300;
+  font-style: italic;
+  font-weight: 400;
   display: block;
 }
 
 .works-items.works-list-items .works-item .desc .name {
   margin-bottom: 2rem;
   font-family: $extra_font;
-  font-size: $section_h2_size;
+  font-size: 2.5rem;
   line-height: 1;
   color: $default_color;
-  font-weight: 300;
+  font-weight: 400;
   display: block;
 }
 
@@ -3526,6 +3567,8 @@ body.light-skin .download-links a.active {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: $white_color !important;
+  margin-top: 0;
+  
 }
 
 .contacts-list {
@@ -5712,9 +5755,9 @@ body.light-skin .h-titles .h-subtitle {
   color: $light_default_color;
 }
 
-body.light-skin .hero-started:before {
-  background: $light_white_color;
-}
+// body.light-skin .hero-started:before {
+//   background: $light_white_color;
+// }
 
 body.light-skin .hero-started .title {
   color: $light_default_color;
@@ -5755,9 +5798,9 @@ body.light-skin .history-item .text {
   color: #3c4649;
 }
 
-body.light-skin .services-item{
-  background: $light_second_bg;
-}
+// body.light-skin .services-item{
+//   background: $light_second_bg;
+// }
 
 body.light-skin .icon {
   background: $light_grey_second
@@ -5796,15 +5839,19 @@ body.light-skin .works-item .image .img:after {
   background: $light_default_bg;
 }
 
-body.light-skin .works-items.works-list-items .works-item .desc .category {
-  color: #3c4649;
+body.light-skin .works-items.works-list-items .works-item .desc {
+  color: $default_color;
+}
+
+body.light-skin .works-items.works-list-items .works-item .category {
+  color: $light_dark_grey_second;
 }
 
 body.light-skin .works-items.works-list-items .works-item .desc .name {
   color: $light_default_color;
 }
 
-body.light-skin .works-items.works-masonry-items .works-item .desc .category {
+body.light-skin .works-items.works-masonry-items .works-item .desc  {
   color: #fff;
 }
 
